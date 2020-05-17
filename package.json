@@ -1,0 +1,25 @@
+{
+  "name": "dependency-injection-typescript",
+  "version": "1.0.0",
+  "description": "Dependency injection is one of form of inversion of control in typescript",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "index.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-kav/dependency-injection-typescript.git"
+  },
+  "author": "akalaiev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-kav/dependency-injection-typescript/issues"
+  },
+  "homepage": "https://github.com/j-kav/dependency-injection-typescript#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "eslint": "^7.0.0",
+    "typescript": "^3.9.2"
+  }
+}
