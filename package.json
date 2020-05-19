@@ -4,7 +4,8 @@
   "description": "Dependency injection is one of form of inversion of control in typescript",
   "main": "src/index.ts",
   "scripts": {
-    "test": "index.spec.ts"
+    "test": "index.spec.ts",
+    "build" : "npx ts-node src/index.ts",
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
     "@typescript-eslint/parser": "^2.33.0",
     "eslint": "^7.0.0",
     "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
   }
 }

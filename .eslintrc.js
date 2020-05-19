@@ -5,7 +5,7 @@ module.exports = {
         sourceType: "module"
     },
     extends: [
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
     ],
     rules: {
         // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
